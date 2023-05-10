@@ -1,0 +1,14 @@
+@import "./global/global.css";
+
+@import "./global/header.css";
+
+/*Utilidades*/
+@import url(utilidades/cores.css);
+@import url(utilidades/tipografia.css);
+@import url(utilidades/componentes.css);
+@import url(utilidades/animacoes.css);
+
+/*Conteudo main*/
+@import url(/css/home/introducao.css);
+@import url(home/info.css);
+@import url(home/roupas.css);

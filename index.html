@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Worty</title>
+  <meta name="description" content="roupas.">
+  <!-- Fontawesome Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header-bg" id="header">
+    
+    <span class="font-1-xs">Até 7 dias para trocar ou devoluções / Em até 6x sem juros no cartão</span>
+    <div class="header">
+      <a href="./">
+        <h1 class="font-1-xxl">WORTY</h1>
+      </a>
+
+      <form action="/search">
+        <input type="text" placeholder="Faça uma pesquisa...">
+        <a href="" class="search-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000" width="24px" height="24px" style="padding: 6px;">
+            <path d="M21.707,20.293l-4.25-4.25C17.619,14.268,18,12.713,18,11c0-4.411-3.589-8-8-8S2,6.589,2,11s3.589,8,8,8c1.713,0,3.268-0.381,4.043-1.043l4.25,4.25c0.391,0.391,1.023,0.391,1.414,0l1.414-1.414C22.098,21.316,22.098,20.684,21.707,20.293z M4,11c0-3.309,2.691-6,6-6s6,2.691,6,6s-2.691,6-6,6S4,14.309,4,11z"/>
+            </svg>
+        </a>
+      </form>
+
+      <a class="entre" href="./">
+        Entre ou <br>
+        Cadastre-se
+      </a>
+
+      <a class="carrinho" href=""><img src="img/icons/carrinho.svg" width="30px" alt="carrinho de compras"></a>
+    </div>
+
+    <nav>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li class="entre-nav-list">
+          
+            <p><a href="">Entre</a> ou <a href="">Cadastre-se</a>
+            </p>
+
+        </li>
+        <li><a href="/">Sale</a></li>
+        <li><a href="/">Lançamentos</a></li>
+        <li><a href="/">Camisetas</a></li>
+        <li><a href="/">Bermudas</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="introducao-bg">
+
+    <div class="introducao">  
+  
+        <div class="texto-alternativo">
+          <span class="introducao-logo font-2-xs"><p>WORTY</p></span> 
+
+          <h1 class="font-1-xxl">
+            3 camisetas por <br>
+            <span class="cifrao font-2-l"> </span> 
+            <span class="preco animated-text">139,99</span>
+          </h1>
+        </div> 
+        
+        <div class="compre-aqui">
+          <a href="">
+            Compre aqui
+          </a>
+        </div>
+    </div>
+  
+  </main>
+
+  <section class="info-bg">
+    <i  class="fa-solid fa-angle-left"></i>
+    <ul class="lista-info">
+      
+      <li class="item">
+        <img src="img/icons/carrinho.svg" alt="" width="30px">
+          <div>
+            <h4 class="font-2-s">ATENDIMENTO</h4>
+            <p class="font-2-xs">seg à sex das 8h-11:30 e das 13h-17:30h</p>
+          </div>
+      </li>
+
+      <li class="item">
+        <img src="img/icons/entrega.png" alt="" width="32px">
+          <div>
+            <h4 class="font-2-s">TROCA E DEVOLUÇÕES</h4>
+            <p class="font-2-xs">Até 7 dias para trocas ou devoluções</p>
+          </div>
+      </li>
+
+      <li class="item">
+        <img src="img/icons/caixa.svg" alt="" width="33px">
+      <div>
+        <h4 class="font-2-s">FRETE</h4>
+        <p class="font-2-xs">Grátis para compras acima de R$199 para todo o Brasil</p>
+      </div>
+      </li>
+
+      <li class="item">
+        <img src="img/icons/pagamento-com-cartao-de-credito.png" alt="" width="30px">
+      <div>
+        <h4 class="font-2-s">PARCELAMENTO</h4>
+        <p class="font-2-xs">Em até 6x sem juros no cartão</p>
+      </div>
+      </li>
+      
+    </ul>
+    <i class="fa-solid fa-angle-right"></i>
+  </section>
+
+
+
+
+
+
+
+  <section class="roupas-slider">
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel">
+        <li class="card">
+          <img class="img" src="img/imagem-roupa.png" alt="Imagem da roupa"
+           onmouseover="this.src='img/imagem-hover.png'"
+          onmouseout="this.src='img/imagem-roupa.png'">
+          <h2>Camiseta Over size Jesus king</h2>
+          <ul class="avaliacao">
+            <li class="star-icon ativo" data-avaliacao="1"></li>
+            <li class="star-icon" data-avaliacao="2"></li>
+            <li class="star-icon" data-avaliacao="3"></li>
+            <li class="star-icon" data-avaliacao="4"></li>
+            <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+          <span>R$ 167,90</span>
+          <h3>R$ 96,60 no PIX</h3>
+          <span>ou até 1x de R$ 99,90 no cartão</span>
+        </li>
+        <li class="card">
+          <img class="img" src="img/imagem-roupa.png" alt="Imagem da roupa"
+           onmouseover="this.src='img/imagem-hover.png'"
+          onmouseout="this.src='img/imagem-roupa.png'">
+          <h2>Camiseta Over size Jesus king</h2>
+          <ul class="avaliacao">
+            <li class="star-icon ativo" data-avaliacao="1"></li>
+            <li class="star-icon" data-avaliacao="2"></li>
+            <li class="star-icon" data-avaliacao="3"></li>
+            <li class="star-icon" data-avaliacao="4"></li>
+            <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+          <span>R$ 167,90</span>
+          <h3>R$ 96,60 no PIX</h3>
+          <span>ou até 1x de R$ 99,90 no cartão</span>
+        </li>
+        <li class="card">
+          <img class="img" src="img/imagem-roupa.png" alt="Imagem da roupa"
+           onmouseover="this.src='img/imagem-hover.png'"
+          onmouseout="this.src='img/imagem-roupa.png'">
+          <h2>Camiseta Over size Jesus king</h2>
+          <ul class="avaliacao">
+            <li class="star-icon ativo" data-avaliacao="1"></li>
+            <li class="star-icon" data-avaliacao="2"></li>
+            <li class="star-icon" data-avaliacao="3"></li>
+            <li class="star-icon" data-avaliacao="4"></li>
+            <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+          <span>R$ 167,90</span>
+          <h3>R$ 96,60 no PIX</h3>
+          <span>ou até 1x de R$ 99,90 no cartão</span>
+        </li>
+        <li class="card">
+          <img class="img" src="img/imagem-roupa.png" alt="Imagem da roupa"
+           onmouseover="this.src='img/imagem-hover.png'"
+          onmouseout="this.src='img/imagem-roupa.png'">
+          <h2>Camiseta Over size Jesus king</h2>
+          <ul class="avaliacao">
+            <li class="star-icon ativo" data-avaliacao="1"></li>
+            <li class="star-icon" data-avaliacao="2"></li>
+            <li class="star-icon" data-avaliacao="3"></li>
+            <li class="star-icon" data-avaliacao="4"></li>
+            <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+          <span>R$ 167,90</span>
+          <h3>R$ 96,60 no PIX</h3>
+          <span>ou até 1x de R$ 99,90 no cartão</span>
+        </li>
+        <li class="card">
+          <img class="img" src="img/imagem-roupa.png" alt="Imagem da roupa"
+           onmouseover="this.src='img/imagem-hover.png'"
+          onmouseout="this.src='img/imagem-roupa.png'">
+          <h2>Camiseta Over size Jesus king</h2>
+          <ul class="avaliacao">
+            <li class="star-icon ativo" data-avaliacao="1"></li>
+            <li class="star-icon" data-avaliacao="2"></li>
+            <li class="star-icon" data-avaliacao="3"></li>
+            <li class="star-icon" data-avaliacao="4"></li>
+            <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+          <span>R$ 167,90</span>
+          <h3>R$ 96,60 no PIX</h3>
+          <span>ou até 1x de R$ 99,90 no cartão</span>
+        </li>
+        <li class="card">
+          <img class="img" src="img/imagem-roupa.png" alt="Imagem da roupa"
+           onmouseover="this.src='img/imagem-hover.png'"
+          onmouseout="this.src='img/imagem-roupa.png'">
+          <h2>Camiseta Over size Jesus king</h2>
+          <ul class="avaliacao">
+            <li class="star-icon ativo" data-avaliacao="1"></li>
+            <li class="star-icon" data-avaliacao="2"></li>
+            <li class="star-icon" data-avaliacao="3"></li>
+            <li class="star-icon" data-avaliacao="4"></li>
+            <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+          <span>R$ 167,90</span>
+          <h3>R$ 96,60 no PIX</h3>
+          <span>ou até 1x de R$ 99,90 no cartão</span>
+        </li>
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+  </section>
+
+
+
+  <script src="./script/sidbar.js"></script>
+  <script src="script/slider-info.js"></script>
+  <script src="script/roupas-slider.js"></script>
+</body>
+</html>

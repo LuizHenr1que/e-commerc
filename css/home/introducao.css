@@ -1,0 +1,72 @@
+.introducao-bg {
+    background: url(../../img/background-image-home.jpg) no-repeat top center;
+    background-size: cover;
+    color: var(--cor-4);
+    height: 450px;
+    padding-top: 40px;
+}
+
+.introducao {
+    position: relative;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.introducao .compre-aqui{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #CFCFCF;
+    color: var(--cor-0);
+}
+
+.introducao .compre-aqui:hover {
+    color: var(--cor-5);
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+/*Frase*/
+.texto-alternativo {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.preco {
+    font-size: 9rem;
+    color: var(--cor-4);
+    text-shadow: 2px 2px var(--cor-5);
+    font-weight: bolder;
+}
+
+.preco::before {
+    content: "R$";
+    position: relative;
+    bottom: 30px;
+    font-size: 2.5rem;
+}
+
+@media (max-width:750px) {
+    .introducao-bg {
+        height: 350px;
+    }
+    .introducao {
+        position: initial;
+    }
+    .texto-alternativo {
+         gap: 60px;
+    }
+    /*Frase*/
+    .preco {
+        font-size: 4rem;
+    }
+    .preco::before {
+        bottom: 0px;
+        font-size: 2rem;
+    }
+}
