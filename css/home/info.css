@@ -64,7 +64,7 @@
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
         scrollbar-width: none;
-        padding-left: 100px;
+        padding-left: 600px;
       }
 }
 
