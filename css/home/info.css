@@ -5,12 +5,11 @@
     align-items: center;
     justify-content: center;
     color: var(--cor-4);
-    padding: 10px;
+    width: 100%;
 }
 
 .lista-info{
     display: flex;
-    word-wrap: break-word;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -55,7 +54,7 @@
         border-top: 1px solid var(--cor-2);
     }   
     .lista-info {
-        grid-auto-columns: calc((70% / 1));
+    grid-auto-columns: calc((70% / 1));
         display: grid;
         grid-auto-flow: column;
         grid-auto-columns: auto;
@@ -64,7 +63,7 @@
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
         scrollbar-width: none;
-        padding-left: 600px;
+        padding-left: 600px;*/
       }
 }
 
