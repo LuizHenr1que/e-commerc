@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
 }
 
 .lista-info::-webkit-scrollbar {
@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-    width: 200px;
+    width: 250px;
     align-items: center;
     padding: 10px;
 }
@@ -44,7 +44,10 @@
     .info-bg .item:nth-child(2),
     .info-bg .item:nth-child(4){
         border-right: none;
-    }    
+    } 
+    .info-bg .item {
+        width: 200px;
+    }   
 }
   
   @media screen and (max-width: 460px) {
@@ -54,7 +57,7 @@
         border-top: 1px solid var(--cor-2);
     }   
     .lista-info {
-    grid-auto-columns: calc((70% / 1));
+        grid-auto-columns: calc((70% / 1));
         display: grid;
         grid-auto-flow: column;
         grid-auto-columns: auto;
@@ -63,8 +66,8 @@
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
         scrollbar-width: none;
-
       }
+      
 }
 
 
