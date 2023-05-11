@@ -4,4 +4,6 @@ const slider = (e) => {
     lista.scrollLeft = e.pageX;
 }
 
-lista.addEventListener("mousemove", slider); 
+if (window.innerWidth === 450) {
+    lista.addEventListener("mousemove", slider); 
+}
