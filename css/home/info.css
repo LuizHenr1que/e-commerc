@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     color: var(--cor-4);
-    width: 100%;
+    width: auto;
 }
 
 .lista-info{
@@ -63,7 +63,7 @@
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
         scrollbar-width: none;
-        padding-left: 600px;*/
+
       }
 }
 
