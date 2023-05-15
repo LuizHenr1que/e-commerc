@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   padding: 15px 200px;
-  background: #030303;
+  background: var(--cor-0);
   z-index: 1;
 }
 .header-bg {
@@ -14,11 +14,13 @@
 }
   
 .header-bg  .promo{
-  background-color: rgba(255, 0, 0, 0.849);
+  background-color: var(--cor-1);
+  color: var(--cor-4);
+  height: 20px;
   font-weight: bolder;
-  z-index: 2;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
   
 .nav,
