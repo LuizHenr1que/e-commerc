@@ -116,6 +116,7 @@ a {
 @media screen and (max-width: 950px) {
   .nav {
     padding: 15px 50px;
+    justify-content: space-evenly;
   }
   .nav .search-box {
     right: 100px;
@@ -172,7 +173,7 @@ a {
     display: none;
  }
  .header-bg .promo {
-  font-size: 10px;
+  font-size: 12px;
  }
 }
 /*entre ou cadastre-se*/
