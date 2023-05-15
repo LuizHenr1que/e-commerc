@@ -1,12 +1,13 @@
 .nav {
   position: fixed;
-  top: 15px;
+  top: 23px;
   left: 0;
   width: 100%;
   padding: 15px 200px;
   background: #030303;
   z-index: 1;
 }
+
 .header-bg {
   display: flex;
   flex-direction: column;
@@ -14,11 +15,13 @@
 }
   
 .header-bg  .promo{
-  background-color: rgba(255, 0, 0, 0.849);
+  background-color: var(--cor-1);
+  color: var(--cor-4);
   font-weight: bolder;
-  z-index: 2;
+  z-index: 1;
   position: fixed;
   width: 100%;
+  padding: 5px;
 }
   
 .nav,
@@ -56,7 +59,7 @@ a {
 }
 
 .nav .search-icon {
-  color: #fff;
+  color: var(--cor-4);
   font-size: 20px;
   cursor: pointer;
 }
@@ -76,14 +79,16 @@ a {
   opacity: 1;
   pointer-events: auto;
 }
+
 .search-box .search-icon {
   position: absolute;
   left: 15px;
   top: 50%;
   left: 15px;
-  color: black;
+  color: var(--cor-0);
   transform: translateY(-50%);
 }
+
 .search-box input {
   height: 100%;
   width: 100%;
