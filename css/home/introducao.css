@@ -2,8 +2,8 @@
     background: url(../../img/background-image-home.jpg) no-repeat top center;
     background-size: cover;
     color: var(--cor-4);
-    height: 450px;
-    padding-top: 40px;
+    height: 550px;
+    padding-top: 150px;
 }
 
 .introducao {
