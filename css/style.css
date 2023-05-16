@@ -13,3 +13,6 @@
 @import url(home/info.css);
 @import url(home/roupas.css);
 @import url(home/footer.css);
+
+/*Login pagina*/
+@import url(login.css/login.css);
