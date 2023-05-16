@@ -4,7 +4,7 @@ body {
   align-items: center;
   justify-content: center;
   background: #313131;
-  background-image: url(/img/background-image-home.jpg);
+  background: url(/img/background-image-home.jpg) center center no-repeat;
   background-size: cover;
 }
 .container {
