@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   padding: 15px 200px;
-  background: #030303;
+  background: var(--cor-0);
   z-index: 1;
 }
 
@@ -15,7 +15,7 @@
 }
   
 .header-bg  .promo{
-  background-color: var(--cor-1);
+  background-color: var(--cor-0);
   color: var(--cor-4);
   font-weight: bolder;
   z-index: 1;
@@ -35,7 +35,7 @@
 }
 
 a {
-  color: #fff;
+  color: var(--cor-4);
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ a {
   border: none;
   outline: none;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: var(--cor-4);
   padding: 0 15px 0 45px;
 }
 
@@ -155,8 +155,8 @@ a {
     padding-top: 100px;
     row-gap: 30px;
     flex-direction: column;
-    background-color: #11101d;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--cor-0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     transition: all 0.4s ease;
     z-index: 100;
   }
@@ -164,7 +164,7 @@ a {
     left: 0;
   }
   .nav .navOpenBtn {
-    color: #fff;
+    color: var(--cor-4);
     font-size: 20px;
     cursor: pointer;
   }
@@ -172,7 +172,7 @@ a {
     position: absolute;
     top: 20px;
     right: 20px;
-    color: #fff;
+    color: var(--cor-4);
     font-size: 20px;
     cursor: pointer;
   }
@@ -181,7 +181,7 @@ a {
     max-width: calc(100% - 20px);
     right: 50%;
     transform: translateX(50%);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   }
   .entre {
     display: none;
