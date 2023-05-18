@@ -4,12 +4,26 @@
   padding: 35px;
   background-color: var(--cor-4);
 }
-.roupas-slider .titulo h1{
+
+.roupas-slider .titulo h1,
+.lançamentos .titulo h1{
   display: flex;
   align-items: start;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.roupas-slider .titulo h1::before,
+.lançamentos .titulo h1::before {
+    position: relative;
+    content: '';
+    height: 2px;
+    width: 10%;
+    background: var(--cor-5);
+    top: 23px;
+
 }
 
 .wrapper {
