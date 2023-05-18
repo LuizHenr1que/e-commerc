@@ -26,14 +26,14 @@ footer{
   top: -10px;
   height: 2px;
   width: 100%;
-  background: #1a1a1a;
+  background:var(--cor-2);
 }
 .box .content:after{
   position: absolute;
   content: '';
   height: 2px;
   width: 15%;
-  background: #f12020;
+  background: var(--cor-5);
   top: -10px;
 }
 .left .content p{
@@ -48,7 +48,7 @@ footer{
 .left .content .social a span{
   height: 40px;
   width: 40px;
-  background: #1a1a1a;
+  background: var(--cor-2);
   line-height: 40px;
   text-align: center;
   font-size: 18px;
@@ -56,11 +56,11 @@ footer{
   transition: 0.3s;
 }
 .left .content .social a span:hover{
-  background: #f12020;
+  background: var(--cor-5);
 }
 .center .content .fas{
   font-size: 1.4375rem;
-  background: #1a1a1a;
+  background: var(--cor-2);
   height: 45px;
   width: 45px;
   line-height: 45px;
@@ -70,7 +70,7 @@ footer{
   cursor: pointer;
 }
 .center .content .fas:hover{
-  background: #f12020;
+  background: var(--cor-5);
 }
 .center .content .text{
   font-size: 1.0625rem;
@@ -85,9 +85,7 @@ footer{
   font-size: 0.9375rem;
   background: var(--cor-0);
 }
-.bottom center span{
-  color: #656565;
-}
+
 .bottom center a{
   color: var(--cor-5);
   text-decoration: none;

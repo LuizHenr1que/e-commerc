@@ -15,7 +15,7 @@
 }
   
 .header-bg  .promo{
-  background-color: var(--cor-0);
+  background-color: var(--cor-2);
   color: var(--cor-4);
   font-weight: bolder;
   z-index: 1;
