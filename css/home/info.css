@@ -62,10 +62,6 @@
         grid-auto-flow: column;
         grid-auto-columns: auto;
         gap: 30px;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        scroll-behavior: smooth;
-        scrollbar-width: none;
       }
 }
 
