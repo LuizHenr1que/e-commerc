@@ -49,9 +49,20 @@ a {
   list-style: none;
 }
 
-.nav .nav-links a {
+.nav .nav-links a:hover {
+  background-color: var(--cor-4);
+  color: var(--cor-0);
+  padding: 7px;
   transition: all 0.2s linear;
 }
+
+.nav .nav-links .entre-ul a:hover {
+  background-color: var(--cor-0);
+  color: var(--cor-5);
+  padding: 0px;
+  transition: all 0.2s linear;
+}
+
 
 .nav.openSearch .nav-links a {
   opacity: 0;
