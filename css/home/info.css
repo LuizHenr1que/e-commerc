@@ -56,13 +56,6 @@
         border-right: 1px solid var(--cor-2);
         border-top: 1px solid var(--cor-2);
     }   
-    .lista-info {
-        grid-auto-columns: calc((70% / 1));
-        display: grid;
-        grid-auto-flow: column;
-        grid-auto-columns: auto;
-        gap: 30px;
-      }
 }
 
 @media screen and (max-width: 820px) {  
